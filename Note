@@ -2,3 +2,5 @@ from 'cuiqingcai.co/968.html'
 
 from http://segmentfault.com/a/1190000000657305
 
+after this:  login = coursera_session.post(url, data=user_info,headers= post_headers)
+then what to do next??

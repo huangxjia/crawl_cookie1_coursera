@@ -3,6 +3,7 @@ __author__ = 'Administrator'
 import random
 import string
 import requests
+import urllib2
 
 url = "https://www.coursera.org/api/login/v3"
 user_info = {"email": "982789611@qq.com", "password":"huangxj9xyz","webrequest":"true"}
@@ -30,3 +31,5 @@ if __name__ == "__main__":
 
     if login.status_code == 200:
         print "Login Successfully!"
+
+    content = coursera_session.get('https://www.coursera.org/')
