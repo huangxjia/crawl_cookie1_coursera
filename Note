@@ -4,3 +4,6 @@ from http://segmentfault.com/a/1190000000657305
 
 after this:  login = coursera_session.post(url, data=user_info,headers= post_headers)
 then what to do next??
+
+about pull:
+if u changed github manually, u need to pull to symplolize git and github,then push. or u have error
